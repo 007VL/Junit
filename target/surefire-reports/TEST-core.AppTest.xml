@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="4" name="core.AppTest" time="0.218" errors="0" skipped="2">
+<testsuite tests="10" failures="4" name="core.AppTest" time="0.471" errors="0" skipped="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\bin"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_25\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher site test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher site install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,15 +62,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="core.AppTest" name="Test_06_assertSame_Positive" time="0.093">
+  <testcase classname="core.AppTest" name="Test_06_assertSame_Positive" time="0.215">
     <skipped/>
   </testcase>
-  <testcase classname="core.AppTest" name="Test_03_assertEquals_Positive" time="0.093">
+  <testcase classname="core.AppTest" name="Test_03_assertEquals_Positive" time="0.216">
     <skipped/>
   </testcase>
-  <testcase classname="core.AppTest" name="Test_07_assertFalse_Positive" time="0.016"/>
+  <testcase classname="core.AppTest" name="Test_07_assertFalse_Positive" time="0.009"/>
   <testcase classname="core.AppTest" name="Test_09_assertTrue_Positive" time="0"/>
-  <testcase classname="core.AppTest" name="Test_10_assertTrue_Positive" time="0">
+  <testcase classname="core.AppTest" name="Test_10_assertTrue_Positive" time="0.03">
     <failure message="Boolean should be false" type="java.lang.AssertionError">java.lang.AssertionError: Boolean should be false
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -152,7 +152,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="core.AppTest" name="Test_02_assertEquals_Negative" time="0.016">
+  <testcase classname="core.AppTest" name="Test_02_assertEquals_Negative" time="0">
     <failure message="String not the same expected:&lt;Testing [TestNG 6]&gt; but was:&lt;Testing [JUnit 4]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: String not the same expected:&lt;Testing [TestNG 6]&gt; but was:&lt;Testing [JUnit 4]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.AppTest.Test_02_assertEquals_Negative(AppTest.java:37)
@@ -192,7 +192,7 @@
 </failure>
   </testcase>
   <testcase classname="core.AppTest" name="Test_04_assertSame_Positive" time="0"/>
-  <testcase classname="core.AppTest" name="Test_05_assertSame_Positive" time="0">
+  <testcase classname="core.AppTest" name="Test_05_assertSame_Positive" time="0.001">
     <failure message="Integer not the same expected same:&lt;54&gt; was not:&lt;55&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Integer not the same expected same:&lt;54&gt; was not:&lt;55&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotSame(Assert.java:828)

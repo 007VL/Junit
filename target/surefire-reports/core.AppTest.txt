@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: core.AppTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 0.125 sec <<< FAILURE!
-Test_10_assertTrue_Positive(core.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 0.273 sec <<< FAILURE!
+Test_10_assertTrue_Positive(core.AppTest)  Time elapsed: 0.03 sec  <<< FAILURE!
 java.lang.AssertionError: Boolean should be false
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -81,7 +81,7 @@ java.lang.AssertionError: Boolean should be false
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-Test_02_assertEquals_Negative(core.AppTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+Test_02_assertEquals_Negative(core.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
 org.junit.ComparisonFailure: String not the same expected:<Testing [TestNG 6]> but was:<Testing [JUnit 4]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.AppTest.Test_02_assertEquals_Negative(AppTest.java:37)
@@ -119,7 +119,7 @@ org.junit.ComparisonFailure: String not the same expected:<Testing [TestNG 6]> b
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-Test_05_assertSame_Positive(core.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
+Test_05_assertSame_Positive(core.AppTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: Integer not the same expected same:<54> was not:<55>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotSame(Assert.java:828)
